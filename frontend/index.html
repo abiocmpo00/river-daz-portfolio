@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>River Daz Portfolio</title>
+    <link class="icon" type="image/png" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">RIVER DAZ</div> 
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#featured">Featured Videos</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home" class="hero-section section">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="gradient-text">River Daz</span></h1>
+                <p class="hero-subtitle">Newbie web developer & aspiring video editor, crafting engaging visual edits and interactive web experiences. Welcome here!</p>
+                
+                <div class="hero-video-wrapper video-wrapper">
+                    <video controls preload="metadata" playsinline>
+                        <source src="./assets/videos/intro-edit.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="./assets/Abigail_Ocampo_Resume.pdf" download="Abigail_Ocampo_Resume.pdf" class="btn btn-blue">Download Resume</a>
+                    <a href="#contact" class="btn btn-outline">Let's Work Together</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section about-section">
+            <div class="about-container">
+                <h2>About Me</h2>
+                <p class="about-highlight">Hi! I'm <strong>Abigail Ocampo</strong>, known online as <strong>River Daz</strong>.</p>
+                <p>I am an Information Systems student from the Philippines, a beginner web developer, and a freelance video editor.</p>
+                <p>I enjoy creating engaging TikTok content through product reviews, creative visuals, and everyday vlogs that tell authentic stories. Whether I'm showcasing a product, experimenting with cinematic edits, or sharing moments from daily life, my goal is to create content that feels genuine, entertaining, and visually engaging.</p>
+                <p>Alongside content creation, I'm building my skills in web development as an Information Systems student, exploring both frontend design and backend development. I love combining creativity with technology, constantly learning new ways to bring ideas to life through videos and digital experiences.</p>
+            </div>
+        </section>
+
+        <!-- FEATURED VIDEOS SECTION -->
+        <section id="featured" class="featured-section">
+            <div class="section-container">
+                <h2 class="section-title">Featured Videos</h2>
+                <p class="section-subtitle">Check out my latest cuts and edits</p>
+
+                <div class="tiktok-grid">
+                    <div class="tiktok-card">
+                        <div class="video-container">
+                            <video src="./assets/videos/fangirl-edits.mp4" controls></video>
+                        </div>
+                        <div class="card-info">
+                            <span class="platform-badge tiktok-badge">Youtube</span>
+                            <h3>Fangirl Edits</h3>
+                            <p>Dedicated fangirl edits, capturing the passion of fandom culture.</p>
+                        </div>
+                    </div>
+
+                    <div class="tiktok-card">
+                        <div class="video-container">
+                            <video src="./assets/videos/perfume-promo-edit.mp4" controls></video>
+                        </div>
+                        <div class="card-info">
+                            <span class="platform-badge tiktok-badge">TikTok</span>
+                            <h3>Short-Form Marketing</h3>
+                            <p>Strong-focused cuts, engaging product promotion</p>
+                        </div>
+                    </div>
+
+                    <div class="tiktok-card">
+                        <div class="video-container">
+                            <video src="./assets/videos/promotional-edit.mp4" controls></video>
+                        </div>
+                        <div class="card-info">
+                            <span class="platform-badge tiktok-badge">TikTok</span>
+                            <h3>Flex-Form Marketing</h3>
+                            <p>Engaging product promotions and marketing edits.</p>
+                        </div>
+                    </div>
+
+                    <div class="tiktok-card">
+                        <div class="video-container">
+                            <video src="./assets/videos/mini-vlogs.mp4" controls loop muted></video> 
+                        </div>
+                        <div class="card-info">
+                            <span class="platform-badge tiktok-badge">Vlog</span>
+                            <h3>Mini Vlogs</h3>
+                            <p>Creating memories one clip at a time. Featuring cinematic visuals, everyday stories, and authentic moments.</p>
+                        </div>
+                    </div>
+
+                    <div class="tiktok-card">
+                        <div class="video-container vertical-video video-wrapper">
+                            <video controls preload="metadata" playsinline>
+                                <source src="./assets/videos/comedy-skits.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="card-info">
+                            <span class="platform-badge tiktok-badge">POV Storyline</span>
+                            <h3>Comedy with Narrative Skits</h3>
+                            <p>Simple sketches from my journey as a content creator, making humorous POVs and relatable storytelling content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="section featured-section">
+            <div class="section-container">
+                <h2 class="section-title">My Creative Work</h2>
+                <p class="section-subtitle">Tracking my editing progress, vlogs, and short-form video styles. Posted from Tiktok and YT Shorts.</p>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-card vertical-card">
+                        <div class="video-container vertical-video iframe-container">
+                            <iframe src="https://www.youtube.com/embed/Ze2_yyTc8Zo" 
+                                    title="Chainsaw Man AI Edit" 
+                                    loading="lazy"
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="card-info">
+                            <span class="platform-badge youtube-badge">YouTube Short</span>
+                            <h3>Chainsaw Man AI Edit</h3>
+                            <p>Short-form anime edit practicing dynamic transitions, AI effects, and pacing integration.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-card vertical-card">
+                        <div class="tiktok-embed-container">
+                            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@river_daz00/video/7558365916044496136" data-video-id="7558365916044496136" style="max-width: 100%; min-width: 100%; margin: 0; padding: 0;"> 
+                                <section> 
+                                    <a target="_blank" rel="noopener noreferrer" title="@river_daz00" href="https://www.tiktok.com/@river_daz00?refer=embed">@river_daz00</a> 
+                                    i did a random video that I got my keyboard and it works really well. thank you tiktok shop! 
+                                    <a title="tiktokshop" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/tiktokshop?refer=embed">#tiktokshop</a> 
+                                    <a target="_blank" rel="noopener noreferrer" title="♬ original sound - River Daz 🌊 - River Daz 😺" href="https://www.tiktok.com/music/original-sound-River-Daz-🌊-7558365967345650448?refer=embed">♬ original sound - River Daz 🌊 - River Daz 😺</a> 
+                                </section> 
+                            </blockquote> 
+                            <script async src="https://www.tiktok.com/embed.js"></script>
+                        </div>
+                        <div class="card-info">
+                            <span class="platform-badge tiktok-badge">TikTok</span>
+                            <h3>Mechanical Keyboard Unboxing</h3>
+                            <p>Short-form product unboxing and showcase highlighting quick-cut workflow and review hooks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>C++, Java, Python, HTML, JavaScript</li>
+                        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                        <li>Technical Support Assistance</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Creative & Production</h3>
+                    <ul>
+                        <li>Video Editing: Filmora, CapCut, PowerDirector, NCH Software</li>
+                        <li>Social Media Management (Facebook, Instagram, TikTok)</li>
+                        <li>Creative Writing</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Professional Strengths</h3>
+                    <ul>
+                        <li>Customer Service & Active Listening</li>
+                        <li>Communication Skills</li>
+                        <li>Adaptability and Willingness to Learn</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="github-highlight">
+                <p>Want to see my live coding project style? <a href="https://github.com/abiocmpo00/unilink-finals" target="_blank" rel="noopener noreferrer" class="accent-link">Check out my Sample GitHub Website →</a></p>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section contact-section">
+            <div class="section-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-prompt">Have an exciting project, a video edit request, or a job opening? Let's connect!</p>
+                
+                <div class="profile-links">
+                    <a href="https://www.linkedin.com/in/abigail-ocampo-043711262/" target="_blank" rel="noopener noreferrer" class="profile-btn linkedin">
+                        <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                    </a>
+                    <a href="https://ph.jobstreet.com/profiles/abigail-ocampo-fcvwf2B6b3" target="_blank" rel="noopener noreferrer" class="profile-btn jobstreet">
+                        <i class="fas fa-briefcase"></i> View JobStreet Profile
+                    </a>
+                </div>
+
+                <hr class="contact-divider">
+
+                <div class="social-links-container">
+                    <a href="mailto:abigailolay64@yahoo.com" class="social-icon-card email" title="Email Me">
+                        <i class="fas fa-envelope"></i> <span class="icon-label">Email</span>
+                    </a>
+                    <a href="https://wa.me/+639654372208" target="_blank" rel="noopener noreferrer" class="social-icon-card whatsapp" title="Chat on WhatsApp">
+                        <i class="fab fa-whatsapp"></i> <span class="icon-label">WhatsApp</span>
+                    </a>
+                    <a href="https://www.instagram.com/river_daz00/" target="_blank" rel="noopener noreferrer" class="social-icon-card instagram" title="Follow on Instagram">
+                        <i class="fab fa-instagram"></i> <span class="icon-label">Instagram</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@river_daz00" target="_blank" rel="noopener noreferrer" class="social-icon-card tiktok" title="Follow on TikTok">
+                        <i class="fab fa-tiktok"></i> <span class="icon-label">TikTok</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 River Daz. All rights reserved.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>
